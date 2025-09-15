@@ -31,34 +31,34 @@
     Selamat Datang di Form Registrasi Akun Belajar Love Math With Ica! Bersama Taklukkan Matematika!
   </marquee>
 
-  <!-- Pembuatan Akun -->
-   <form><br/>
+  
+<!-- Pembuatan Akun -->
+  <form><br/>
     <table cellpadding="8" cellspacing="0" bgcolor="#fff8f1" border="0" width="100%" style="border-radius: 10px; overflow: hidden;">
-        <tr>
-  <td width="25%"><label for="password"><b>Password</b></label></td>
-  <td width="75%">
-    <input type="password" id="password" name="password" placeholder="Masukkan password" style="width:90%;">
-    <button type="button" onclick="togglePassword('password')">👁️</button>
-  </td>
-</tr>
-<tr>
-  <td width="25%"><label for="confirm"><b>Konfirmasi Password</b></label></td>
-  <td width="75%">
-    <input type="password" id="confirm" name="confirm" placeholder="Ulangi password" style="width:90%;">
-    <button type="button" onclick="togglePassword('confirm')">👁️</button>
-  </td>
-</tr>
-     <script>
-function togglePassword(id) {
-  const input = document.getElementById(id);
-  if (input.type === "password") {
-    input.type = "text";
-  } else {
-    input.type = "password";
-  }
-}
-</script>
-    </table><br/>
+      <tr>
+        <td colspan="2" align="center"><h2>Akun Belajar</h2></td>
+      </tr>
+      <tr>
+        <td width="25%"><label for="username"><b>Username</b></label></td>
+        <td width="75%">
+          <input type="text" id="username" name="username" placeholder="Masukkan username" style="width:95%;">
+        </td>
+      </tr>
+      <tr>
+    <td width="25%"><label for="password"><b>Password</b></label></td>
+        <td width="75%">
+          <input type="password" id="password" name="password" placeholder="Masukkan password" style="width:90%;">
+          <button type="button" onclick="togglePassword('password')">👁️</button>
+        </td>
+      </tr>
+      <tr>
+        <td width="25%"><label for="confirm"><b>Konfirmasi Password</b></label></td>
+        <td width="75%">
+          <input type="password" id="confirm" name="confirm" placeholder="Ulangi password" style="width:90%;">
+          <button type="button" onclick="togglePassword('confirm')">👁️</button>
+        </td>
+      </tr>
+        </table><br/>
 
  <!-- Pembuatan Data Diri -->
 <table cellpadding="8" cellspacing="0" bgcolor="#fff8f1" border="0" width="100%" style="border-radius: 10px; overflow: hidden;">
@@ -118,5 +118,6 @@ function togglePassword(id) {
 </body>
 
 </html>
+
 
 
