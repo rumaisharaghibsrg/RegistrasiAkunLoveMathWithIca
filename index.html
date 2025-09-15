@@ -61,7 +61,7 @@
     <input type="password" id="confirm" name="confirm" placeholder="Ulangi password" 
            style="width:85%; padding:6px; border-radius:5px; border:1px solid #ccc;">
     <button type="button" onclick="togglePassword('confirm',this)" 
-            style="margin-left:5px; cursor:pointer; padding:4px 8px;">👁️</button>
+            style="margin-left:5px; cursor:pointer; padding:4px 8px;">🔒</button>
   </td>
 </tr>
     </table><br/>
@@ -126,13 +126,14 @@
       const input = document.getElementById(id);
       if(input.type === "password"){
         input.type = "text";
-        btn.textContent = "🙈";
+        btn.textContent = "🔓";
       }else{
         input.type = "password";
-        btn.textContent = "👁️";
+        btn.textContent = "🔒";
       }
     }
   </script>
 </body>
 </html>
+
 
